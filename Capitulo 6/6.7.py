@@ -10,4 +10,3 @@ peoples = [people_1, people_2, people_3]
 for people in peoples:
     full_name = people['first'] + ' ' + people['last']
     print(f'Nome completo: {full_name} , idade: {people["age"]}, cidade: {people["city"]}.')
-
